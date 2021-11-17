@@ -1,0 +1,88 @@
+  body {
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .header{
+    text-align: center;
+    color: #FFFCF2;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .buttons{
+    background-color: #2E86AB;
+    border: 1px solid #FFFCF2;
+    color: black;
+    text-align: center;
+    border-radius: 10%;
+    transition-duration: 200ms
+    
+  }
+
+  .buttons:hover{
+    background-color: #FFFCF2;
+    border: 1px solid #FFFCF2;
+    color: black;
+    text-align: center;
+    border-radius: 10%;
+  }
+
+  .buttons:active{
+    background-color: #84E6F8;
+    border: 1px solid #FFFCF2;
+    color: black;
+    text-align: center;
+    border-radius: 10%;
+    transition-duration: 200ms
+  }
+
+  .btn2
+  {
+    background-color: #2E86AB;
+    border: 1px solid #FFFCF2;
+    color: black;
+    text-align: center;
+    width: 100px;
+    transition-duration: 200ms
+  }
+  
+  .btn2:hover
+  {
+    background-color: #FFFCF2;
+    border: 1px solid #FFFCF2;
+    color: black;
+    text-align: center;
+    transition-duration: 200ms
+  }
+  .btn2:active{
+    background-color: #84E6F8;
+    border: 1px solid #FFFCF2;
+    color: black;
+    text-align: center;
+    transition-duration: 200ms
+  }
+
+  .ideen{
+    text-align: center;
+    color: #FFFCF2;
+    max-width: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .inputbox{
+    text-align: center;
+    height: 500px;
+    width: 1000px;
+  }
+
+  .box1{
+    text-align: center;
+  }
