@@ -1,33 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2023-07-10T15:36:36.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="SYM2427ChSiIxh2Ou6u3" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-18T11:39:56.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="hlNoDyB3BbtQUyzTk0_N" version="21.6.1" type="github">
   <diagram name="Seite-1" id="AyVDhzs5wA8iKF448M9e">
-    <mxGraphModel dx="2593" dy="1418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LhGyinPqwTgNb-0om4rO-3" value="&lt;div&gt;App.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-3" value="&lt;div&gt;App.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="470" y="120" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-4" target="LhGyinPqwTgNb-0om4rO-3">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="LhGyinPqwTgNb-0om4rO-4" target="LhGyinPqwTgNb-0om4rO-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-4" value="MainNavigation.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-4" value="MainNavigation.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="455" y="215" width="230" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-87" value="&lt;div&gt;Stack : const&lt;/div&gt;&lt;div&gt;[tmpRecipe, setTmpRecipe] : useState()&lt;/div&gt;&lt;div&gt;navigation : useNavigation()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-4">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-87" value="&lt;div&gt;Stack : const&lt;/div&gt;&lt;div&gt;[tmpRecipe, setTmpRecipe] : useState()&lt;/div&gt;&lt;div&gt;navigation : useNavigation()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-4" vertex="1">
           <mxGeometry y="40" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-89" value="BackButton : component" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-4">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-89" value="BackButton : component" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-4" vertex="1">
           <mxGeometry y="100" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-5" target="LhGyinPqwTgNb-0om4rO-9">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="LhGyinPqwTgNb-0om4rO-104" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="30" y="490" />
-              <mxPoint x="30" y="615" />
+              <mxPoint x="20" y="490" />
+              <mxPoint x="20" y="615" />
             </Array>
+            <mxPoint x="40" y="490" as="sourcePoint" />
+            <mxPoint x="40" y="615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-5">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LhGyinPqwTgNb-0om4rO-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="760" as="targetPoint" />
             <Array as="points">
@@ -36,183 +38,185 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-5" target="LhGyinPqwTgNb-0om4rO-10">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="LhGyinPqwTgNb-0om4rO-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="10" y="490" />
-              <mxPoint x="10" y="905" />
+              <mxPoint x="20" y="490" />
+              <mxPoint x="20" y="905" />
             </Array>
+            <mxPoint x="60" y="490" as="sourcePoint" />
+            <mxPoint x="30" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-5" value="&lt;div&gt;TabNavigation.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-5" value="&lt;div&gt;TabNavigation.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="50" y="450" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-101" value="&lt;div&gt;Tab : createBottomTabNavigator()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-5">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-101" value="&lt;div&gt;Tab : createBottomTabNavigator()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-5" vertex="1">
           <mxGeometry y="40" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-103" value="handleOnPress() : function" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-5">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-103" value="handleOnPress() : function" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-5" vertex="1">
           <mxGeometry y="60" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-6" target="LhGyinPqwTgNb-0om4rO-4">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LhGyinPqwTgNb-0om4rO-6" target="LhGyinPqwTgNb-0om4rO-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-6" value="AddRecipeEditMode.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-6" value="AddRecipeEditMode.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="810" y="10" width="350" height="740" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-93" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[data,setData] : useState();&lt;/span&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[mode,setMode] : useState()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[selectedUnit, setSelectedUnit] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[ingredientValue, setIngredientValue] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[amountValue, setAmountValue] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[instructions, setInstructions] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[instructionValue, setInstructionValue] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[category, setCategory] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[description, setDescription] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[portionSize, setPortionSize] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[prepTime, setPrepTime] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[titleValue, setTitleValue] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[editIngredient, setEditIngredient] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[editAmount, setEditAmount] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[editedUnit, setEditedUnit] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[editIndex, setEditIndex] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[ingredients, setIngredients] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[isModalVisible, setIsModalVisible] : useState()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[cameraModal, setCameraModal] : useState()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[newImage, setNewImage] : useState()&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[newIngredient, setNewIngredient] : useState()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[newIngredientAmount, setNewIngredientAmount] : useState()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[newIngredientUnit, setNewIngredientUnit] : useState()&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[editingID, setEditingID] = useState();&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[editMode, setEditMode] = useState();&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;verticalAlign=top;fontColor=default;fontStyle=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-6">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-93" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[data,setData] : useState();&lt;/span&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[mode,setMode] : useState()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[selectedUnit, setSelectedUnit] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[ingredientValue, setIngredientValue] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[amountValue, setAmountValue] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[instructions, setInstructions] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[instructionValue, setInstructionValue] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[category, setCategory] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[description, setDescription] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[portionSize, setPortionSize] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[prepTime, setPrepTime] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[titleValue, setTitleValue] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[editIngredient, setEditIngredient] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[editAmount, setEditAmount] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[editedUnit, setEditedUnit] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[editIndex, setEditIndex] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[ingredients, setIngredients] : useState();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[isModalVisible, setIsModalVisible] : useState()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[cameraModal, setCameraModal] : useState()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[newImage, setNewImage] : useState()&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[newIngredient, setNewIngredient] : useState()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[newIngredientAmount, setNewIngredientAmount] : useState()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[newIngredientUnit, setNewIngredientUnit] : useState()&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[editingID, setEditingID] = useState();&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[editMode, setEditMode] = useState();&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;verticalAlign=top;fontColor=default;fontStyle=0;fontFamily=Helvetica;fontSize=12;" parent="LhGyinPqwTgNb-0om4rO-6" vertex="1">
           <mxGeometry y="40" width="350" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-100" value="&lt;div&gt;changeMode(newMode) : function&lt;/div&gt;&lt;div&gt;addIngredient() : function&lt;/div&gt;&lt;div&gt;addNewIngredientEdit() : function&lt;/div&gt;&lt;div&gt;addInstructions() : function&lt;/div&gt;&lt;div&gt;saveDataToRecipe() : async funtion&lt;/div&gt;&lt;div&gt;handleSave() : function&lt;/div&gt;&lt;div&gt;recalculatePortionSize() : function&lt;/div&gt;&lt;div&gt;useEffect(function) : ???&lt;/div&gt;&lt;div&gt;useLayoutEffect(function) : ???&lt;/div&gt;&lt;div&gt;changeTitle(text) : function&lt;/div&gt;&lt;div&gt;openModal(index) : function&lt;/div&gt;&lt;div&gt;closeModal() : function&lt;/div&gt;&lt;div&gt;ImageBackgroundComponent(props) : component&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-6">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-100" value="&lt;div&gt;changeMode(newMode) : function&lt;/div&gt;&lt;div&gt;addIngredient() : function&lt;/div&gt;&lt;div&gt;addNewIngredientEdit() : function&lt;/div&gt;&lt;div&gt;addInstructions() : function&lt;/div&gt;&lt;div&gt;saveDataToRecipe() : async funtion&lt;/div&gt;&lt;div&gt;handleSave() : function&lt;/div&gt;&lt;div&gt;recalculatePortionSize() : function&lt;/div&gt;&lt;div&gt;useEffect(function) : ???&lt;/div&gt;&lt;div&gt;useLayoutEffect(function) : ???&lt;/div&gt;&lt;div&gt;changeTitle(text) : function&lt;/div&gt;&lt;div&gt;openModal(index) : function&lt;/div&gt;&lt;div&gt;closeModal() : function&lt;/div&gt;&lt;div&gt;ImageBackgroundComponent(props) : component&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-6" vertex="1">
           <mxGeometry y="520" width="350" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-7" target="LhGyinPqwTgNb-0om4rO-4">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LhGyinPqwTgNb-0om4rO-7" target="LhGyinPqwTgNb-0om4rO-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-7" value="&lt;div&gt;AddRecipeOverview.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-7" value="&lt;div&gt;AddRecipeOverview.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="30" y="195" width="290" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-91" value="&lt;div&gt;[link,setLink] : useState()&lt;/div&gt;&lt;div&gt;[isLoading,setIsLoading]: useState()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-7">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-91" value="&lt;div&gt;[link,setLink] : useState()&lt;/div&gt;&lt;div&gt;[isLoading,setIsLoading]: useState()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-7" vertex="1">
           <mxGeometry y="40" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-92" value="&lt;div&gt;saveChefkochToData(recipeJSON): async function&lt;/div&gt;&lt;div&gt;handleChefkoch(): function&lt;/div&gt;&lt;div&gt;handleNewRecipe(): function&lt;/div&gt;&lt;div&gt;getChefkochdata(link, setIsLoading): function&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-7">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-92" value="&lt;div&gt;saveChefkochToData(recipeJSON): async function&lt;/div&gt;&lt;div&gt;handleChefkoch(): function&lt;/div&gt;&lt;div&gt;handleNewRecipe(): function&lt;/div&gt;&lt;div&gt;getChefkochdata(link, setIsLoading): function&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-7" vertex="1">
           <mxGeometry y="100" width="290" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-8" target="LhGyinPqwTgNb-0om4rO-4">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="LhGyinPqwTgNb-0om4rO-8" target="LhGyinPqwTgNb-0om4rO-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-8" value="&lt;div&gt;RecipePage.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-8" value="&lt;div&gt;RecipePage.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="520" y="420" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-115" value="&lt;div&gt;[data , setData] = useState()&lt;/div&gt;&lt;div&gt;[mode, setMode] = useState()&lt;/div&gt;&lt;div&gt;[onID, setOnID] = useState()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-8">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-115" value="&lt;div&gt;[data , setData] = useState()&lt;/div&gt;&lt;div&gt;[mode, setMode] = useState()&lt;/div&gt;&lt;div&gt;[onID, setOnID] = useState()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-8" vertex="1">
           <mxGeometry y="40" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-116" value="&lt;div&gt;changeMode(newMode) : function&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-8">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-116" value="&lt;div&gt;changeMode(newMode) : function&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-8" vertex="1">
           <mxGeometry y="90" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-9" value="&lt;div&gt;HomeScreen.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-9" value="&lt;div&gt;HomeScreen.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="50" y="550" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-104" value="&lt;div&gt;[fullReci, setFullReci] : useState()&lt;/div&gt;&lt;div&gt;[reci, setReci] : useState()&lt;br&gt;&lt;/div&gt;&lt;div&gt;styles : StyleSheet&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-9">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-104" value="&lt;div&gt;[fullReci, setFullReci] : useState()&lt;/div&gt;&lt;div&gt;[reci, setReci] : useState()&lt;br&gt;&lt;/div&gt;&lt;div&gt;styles : StyleSheet&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-9" vertex="1">
           <mxGeometry y="40" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-106" value="&lt;div&gt;Update() : async function&lt;/div&gt;&lt;div&gt;handleButtonPress() : function&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-9">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-106" value="&lt;div&gt;Update() : async function&lt;/div&gt;&lt;div&gt;handleButtonPress() : function&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-9" vertex="1">
           <mxGeometry y="90" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-10" value="&lt;div&gt;RecipeOverview.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-10" value="&lt;div&gt;RecipeOverview.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="50" y="830" width="240" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-107" value="&lt;div&gt;[recipe, setRecipe] : useState()&lt;/div&gt;&lt;div&gt;[fullRecipe,setFullRecipe] : useState()&lt;br&gt;&lt;/div&gt;&lt;div&gt;[searchTerm, setSearchTerm] : useState()&lt;/div&gt;&lt;div&gt;style : StyleSheet&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-10">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-107" value="&lt;div&gt;[recipe, setRecipe] : useState()&lt;/div&gt;&lt;div&gt;[fullRecipe,setFullRecipe] : useState()&lt;br&gt;&lt;/div&gt;&lt;div&gt;[searchTerm, setSearchTerm] : useState()&lt;/div&gt;&lt;div&gt;style : StyleSheet&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-10" vertex="1">
           <mxGeometry y="40" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-109" value="&lt;div&gt;Update() : async function&lt;/div&gt;&lt;div&gt;handleSearch(value) : function&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-10">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-109" value="&lt;div&gt;Update() : async function&lt;/div&gt;&lt;div&gt;handleSearch(value) : function&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-10" vertex="1">
           <mxGeometry y="110" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-23" value="Storage.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-23" value="Storage.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="1270" y="680" width="250" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-137" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-23">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-137" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-23" vertex="1">
           <mxGeometry y="40" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-138" value="&lt;div&gt;getData() : async function&lt;/div&gt;&lt;div&gt;getDataWithID(id) : async function&lt;/div&gt;&lt;div&gt;addData(value) : async function&lt;/div&gt;&lt;div&gt;removeData(id) : async function&lt;/div&gt;&lt;div&gt;generateIDFromData(data) : async function&lt;/div&gt;&lt;div&gt;clear() : async function&lt;/div&gt;&lt;div&gt;createTestData() : async function&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-23">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-138" value="&lt;div&gt;getData() : async function&lt;/div&gt;&lt;div&gt;getDataWithID(id) : async function&lt;/div&gt;&lt;div&gt;addData(value) : async function&lt;/div&gt;&lt;div&gt;removeData(id) : async function&lt;/div&gt;&lt;div&gt;generateIDFromData(data) : async function&lt;/div&gt;&lt;div&gt;clear() : async function&lt;/div&gt;&lt;div&gt;createTestData() : async function&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-23" vertex="1">
           <mxGeometry y="60" width="250" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.993;entryY=0.351;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-24" target="LhGyinPqwTgNb-0om4rO-93">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.993;entryY=0.351;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LhGyinPqwTgNb-0om4rO-24" target="LhGyinPqwTgNb-0om4rO-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-24" value="Camera.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-24" value="Camera.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="1210" y="10" width="430" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-130" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;hasCameraPermission&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;setHasCameraPermission&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;] &lt;/span&gt;:&lt;span style=&quot;font-size: 12px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;useState&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;openModal&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;setOpenModal&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;] &lt;/span&gt;:&lt;span style=&quot;font-size: 12px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;useState&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;camera&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;setCamera&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;] &lt;/span&gt;:&lt;span style=&quot;font-size: 12px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;useState&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;type&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;setType&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;] &lt;/span&gt;:&lt;span style=&quot;font-size: 12px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;useState&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;styles : StyleSheet&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;labelBorderColor=none;align=center;fontSize=12;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-24">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-130" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;hasCameraPermission&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;setHasCameraPermission&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;] &lt;/span&gt;:&lt;span style=&quot;font-size: 12px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;useState&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;openModal&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;setOpenModal&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;] &lt;/span&gt;:&lt;span style=&quot;font-size: 12px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;useState&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;camera&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;setCamera&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;] &lt;/span&gt;:&lt;span style=&quot;font-size: 12px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;useState&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;type&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;setType&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;] &lt;/span&gt;:&lt;span style=&quot;font-size: 12px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;useState&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;styles : StyleSheet&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;labelBorderColor=none;align=center;fontSize=12;" parent="LhGyinPqwTgNb-0om4rO-24" vertex="1">
           <mxGeometry y="40" width="430" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-131" value="&lt;div&gt;takePicture() : async function&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-24">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-131" value="&lt;div&gt;takePicture() : async function&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-24" vertex="1">
           <mxGeometry y="150" width="430" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.994;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-25" target="LhGyinPqwTgNb-0om4rO-93">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.994;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LhGyinPqwTgNb-0om4rO-25" target="LhGyinPqwTgNb-0om4rO-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-25" value="Recipe.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-25" value="Recipe.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="1210" y="330" width="200" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-135" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-25">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-135" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="LhGyinPqwTgNb-0om4rO-25" vertex="1">
           <mxGeometry y="40" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-136" value="&lt;div&gt;constructor(&lt;/div&gt;&lt;div&gt;id,&lt;/div&gt;&lt;div&gt;categoryID,&lt;/div&gt;&lt;div&gt;title,&lt;/div&gt;&lt;div&gt;ingredients,&lt;/div&gt;&lt;div&gt;&amp;nbsp;instructions,&lt;/div&gt;&lt;div&gt;description,&lt;/div&gt;&lt;div&gt;portions,&lt;/div&gt;&lt;div&gt;time,&lt;/div&gt;&lt;div&gt;image)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-25">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-136" value="&lt;div&gt;constructor(&lt;/div&gt;&lt;div&gt;id,&lt;/div&gt;&lt;div&gt;categoryID,&lt;/div&gt;&lt;div&gt;title,&lt;/div&gt;&lt;div&gt;ingredients,&lt;/div&gt;&lt;div&gt;&amp;nbsp;instructions,&lt;/div&gt;&lt;div&gt;description,&lt;/div&gt;&lt;div&gt;portions,&lt;/div&gt;&lt;div&gt;time,&lt;/div&gt;&lt;div&gt;image)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-25" vertex="1">
           <mxGeometry y="60" width="200" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-34" target="LhGyinPqwTgNb-0om4rO-93">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LhGyinPqwTgNb-0om4rO-34" target="LhGyinPqwTgNb-0om4rO-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-34" value="&lt;div&gt;Units.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-34" value="&lt;div&gt;Units.js&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="1210" y="220" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-132" value="unitData : List[]" style="whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-34">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-132" value="unitData : List[]" style="whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-34" vertex="1">
           <mxGeometry y="40" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-37" target="LhGyinPqwTgNb-0om4rO-3">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LhGyinPqwTgNb-0om4rO-37" target="LhGyinPqwTgNb-0om4rO-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-37" value="&lt;div&gt;Entry&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-37" value="&lt;div&gt;Entry&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-39" value="colors.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-39" value="colors.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="1295" y="880" width="200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-133" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;primary&lt;/span&gt;&lt;span style=&quot;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;#EF8961&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;secondary&lt;/span&gt;&lt;span style=&quot;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;#B3C772&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;accent&lt;/span&gt;&lt;span style=&quot;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;#EF8961&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;secondaryAccent&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;#9AD3CA&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;iconPrimary&lt;/span&gt;&lt;span style=&quot;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;#000&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;textPrimary&lt;/span&gt;&lt;span style=&quot;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;#FFF&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;background&lt;/span&gt;&lt;span style=&quot;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;#F2c37f&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;labelBorderColor=none;align=left;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-39">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-133" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;primary&lt;/span&gt;&lt;span style=&quot;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;#EF8961&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;secondary&lt;/span&gt;&lt;span style=&quot;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;#B3C772&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;accent&lt;/span&gt;&lt;span style=&quot;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;#EF8961&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;secondaryAccent&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;#9AD3CA&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;iconPrimary&lt;/span&gt;&lt;span style=&quot;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;#000&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;textPrimary&lt;/span&gt;&lt;span style=&quot;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;#FFF&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;background&lt;/span&gt;&lt;span style=&quot;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&quot;#F2c37f&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;labelBorderColor=none;align=left;" parent="LhGyinPqwTgNb-0om4rO-39" vertex="1">
           <mxGeometry y="40" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-90" value="CategoryScreen.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-90" value="CategoryScreen.js" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="50" y="700" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-112" value="[category, setCategory] : useState()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-90">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-112" value="[category, setCategory] : useState()" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-90" vertex="1">
           <mxGeometry y="40" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-114" value="Update() : async function" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-90">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-114" value="Update() : async function" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-90" vertex="1">
           <mxGeometry y="80" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-120" target="LhGyinPqwTgNb-0om4rO-8">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="LhGyinPqwTgNb-0om4rO-120" target="LhGyinPqwTgNb-0om4rO-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-120" value="Category.js" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-120" value="Category.js" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="575" y="720" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-121" target="LhGyinPqwTgNb-0om4rO-116">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LhGyinPqwTgNb-0om4rO-121" target="LhGyinPqwTgNb-0om4rO-116" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-121" value="Iconbar.js" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-121" value="Iconbar.js" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="485" y="810" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-124">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="LhGyinPqwTgNb-0om4rO-124" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="560" as="targetPoint" />
             <mxPoint x="540" y="625" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-124" value="&lt;div&gt;imageBackgroundComp.js&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-124" value="&lt;div&gt;imageBackgroundComp.js&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="340" y="584" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-125" value="navigation : useNavigation()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LhGyinPqwTgNb-0om4rO-124">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-125" value="navigation : useNavigation()" style="rounded=0;whiteSpace=wrap;html=1;" parent="LhGyinPqwTgNb-0om4rO-124" vertex="1">
           <mxGeometry y="40" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-127" target="LhGyinPqwTgNb-0om4rO-8">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="LhGyinPqwTgNb-0om4rO-127" target="LhGyinPqwTgNb-0om4rO-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-127" value="&lt;div&gt;Steps.js&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-127" value="&lt;div&gt;Steps.js&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="610" width="115" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-128" target="LhGyinPqwTgNb-0om4rO-129">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="LhGyinPqwTgNb-0om4rO-128" target="LhGyinPqwTgNb-0om4rO-129" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-128" value="Entry.js" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-128" value="Entry.js" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="685" y="920" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-129" target="LhGyinPqwTgNb-0om4rO-116">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LhGyinPqwTgNb-0om4rO-129" target="LhGyinPqwTgNb-0om4rO-116" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-129" value="&lt;div&gt;IngredientList.js&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-129" value="&lt;div&gt;IngredientList.js&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="830" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LhGyinPqwTgNb-0om4rO-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="LhGyinPqwTgNb-0om4rO-101" target="LhGyinPqwTgNb-0om4rO-4">
+        <mxCell id="LhGyinPqwTgNb-0om4rO-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="LhGyinPqwTgNb-0om4rO-101" target="LhGyinPqwTgNb-0om4rO-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
